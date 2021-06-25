@@ -1,0 +1,59 @@
+.navBar{
+	margin:20px 20px;
+	}
+		<!-- this aligns the navigation tabs vertically -->
+
+.navBar ul {
+	padding:20px 20px;
+	}
+			
+.navBar ul li {
+	float:center; margin:10px 10px; position:relative; background-color:lightblue; list-style-type:none;
+	}		
+
+.navBar{
+	color:mistyrose;
+	font-family: 'Pattaya', sans-serif;
+	text-align: center;
+	}
+	
+.fab {
+	color: blue;
+	font-size: 60px;
+	padding: 50px;
+	}
+	
+.h1 {font-size: 50px;
+	color:cornflowerblue;
+	background-color: lightblue;
+	text-align:center;
+	font-family:'Pattaya';}
+	
+.contactform {font-size: 20px;
+	color:black;
+	background-color: cornflowerblue;
+	text-align:center;
+	font-family:'timesnewroman';}
+	
+/*product page*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+h2 {text-align:center;
+	color:palevioletred;
+	font-family:Georgia, 'Times New Roman', Times, serif;}
+

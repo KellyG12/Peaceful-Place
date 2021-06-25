@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset ="UTF-8">
+		<meta name="description" content="This is a booknerd's dream">
+		<title>Kelly's Website</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
+	</head>
+	
+	<body style="height:100vh; background-color:aquamarine;">
+		
+			<header>
+				<h1 class="h1">The Peaceful Place</h1>
+			</header>
+			<br>
+			<br>
+			<main>
+				<article>
+					<section>
+						<p style="color: crimson; background-color:mistyrose; text-align:center;">Welcome to a <big><b>BOOKNERD'S DREAM!</b></big></p>
+					</section>
+					<br>
+					<br>
+					<section>
+						<!--Nav Menu-->
+						<nav>
+							<div class="navBar"> 
+								<ul>
+									<li> <a href = "index.html">Home</a></li>
+									<li> <a href = "products.html">Products</a></li>
+									<li> <a href = "about.html">About Us</a></li>
+									<li> <a href = "contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</nav>
+					</section>
+					<section class="contactform">
+						<h1><b>The Peaceful Place</b></h1>
+
+						<p>	Telephone: 0768322111<br>
+							Email: kelly.govender12@gmail.com<br>
+							Address: 17 Sunflower Avenue, Midrand<br>
+							<hr>
+						</p>
+						<h1> Submit a Query </h1><br>
+						
+						<h2> Personal Details </h2>
+						<form>
+							<!-- Name TextBox-->
+							<label for="fname">First name:</label><br>
+								<input type="text" id="fname" name="fname"><br>
+							<label for="lname">Last name:</label><br>
+								<input type="text" id="lname" name="lname"><br>
+							<label for="email">Email:</label><br>
+								<input type="text" id="email" name="email">
+						</form><br>	
+						
+						<h2> Are you a Belle or a Beast? </h2>
+						<form>
+							<!-- Gender RadioBox -->
+							<input type="radio" id="male" name="gender" value="male">
+								<label for="male">Male</label><br>
+							<input type="radio" id="female" name="gender" value="female">
+								<label for="female">Female</label><br>
+							<input type="radio" id="other" name="gender" value="other">
+								<label for="other">Other</label>
+						</form><br>	
+						
+						<h2> Let's Chat! </h2>
+						<form>
+							<!-- Type of query CheckBox -->
+							<input type="checkbox" id="QueryType1" name="comment" value="Comment">
+								<label for="queryType1"> Comment</label><br>
+							<input type="checkbox" id="QueryType2" name="suggestion" value="Suggestion">
+								<label for="queryType2"> Suggestion</label><br>
+							<input type="checkbox" id="QueryType3" name="question" value="Question">
+								<label for="queryType3"> Question</label><br><br>
+								<label for="Query">Comment/Suggestion/Question</label><br>
+									<textarea id="query" name="query" rows="4" cols="50">
+										Type your text here
+									</textarea>
+									<br><br>
+									<input type="submit">
+									<br>
+						</form>
+					</section>
+				</article>
+			</main>
+			
+			<footer>
+			<!--social media buttons-font awesome-->
+				<a href= "https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+			</footer>
+	</body>
+</html>
