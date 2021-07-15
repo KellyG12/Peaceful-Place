@@ -48,7 +48,7 @@
 						<h1> Submit a Query </h1><br>
 						
 						<h2> Personal Details </h2>
-						<form>
+						<form id="myForm">
 							<!-- Name TextBox-->
 							<label for="fname">First name:</label><br>
 								<input type="text" id="fname" name="fname"><br>
@@ -56,10 +56,9 @@
 								<input type="text" id="lname" name="lname"><br>
 							<label for="email">Email:</label><br>
 								<input type="text" id="email" name="email">
-						</form><br>	
+							<br>	
 						
 						<h2> Are you a Belle or a Beast? </h2>
-						<form>
 							<!-- Gender RadioBox -->
 							<input type="radio" id="male" name="gender" value="male">
 								<label for="male">Male</label><br>
@@ -67,10 +66,11 @@
 								<label for="female">Female</label><br>
 							<input type="radio" id="other" name="gender" value="other">
 								<label for="other">Other</label>
-						</form><br>	
+						<br>	
 						
-						<h2> Let's Chat! </h2>
-						<form>
+						<h2> Are you looking for a specific Title? 
+							<br>Let's Chat! </h2>
+						
 							<!-- Type of query CheckBox -->
 							<input type="checkbox" id="QueryType1" name="comment" value="Comment">
 								<label for="queryType1"> Comment</label><br>
@@ -80,14 +80,15 @@
 								<label for="queryType3"> Question</label><br><br>
 								<label for="Query">Comment/Suggestion/Question</label><br>
 									<textarea id="query" name="query" rows="4" cols="50">
-										Type your text here
+								
 									</textarea>
 									<br><br>
-									<input type="submit">
+									<input type="submit" value="submit" onclick="return foo();" />
 									<br>
 						</form>
 					</section>
 				</article>
+				<script src="index.js"></script>
 			</main>
 			
 			<footer>
