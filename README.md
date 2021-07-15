@@ -32,9 +32,6 @@ Open ``` index.html ``` in your preferred browser
 ## Authors
 KellyG12
 
-## Screenshots
-! [] (images/ss1.jpg)
-
 
 ## Show your support!
 Please give us a ⭐ if you like this project!
