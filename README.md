@@ -32,6 +32,9 @@ Open ``` index.html ``` in your preferred browser
 ## Authors
 KellyG12
 
+## Live Demo
+https://kellyg12.github.io/Peaceful-Place/
+
 ## Show your support!
 Please give us a ⭐ if you like this project!
 
