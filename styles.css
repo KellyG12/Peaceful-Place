@@ -79,3 +79,24 @@ h2 {text-align:center;
 	color: rebeccapurple;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.info {
+		margin:20px 20px;
+		}
+	
+.info {
+		color:rgb(67, 152, 233);
+		font-family: 'Pattaya', sans-serif;
+		text-align: center;
+		}
+
+.about {
+			margin:20px 20px;
+			}
+		
+.about {
+			color:rgb(40, 184, 136);
+			font-family: 'Pattaya', sans-serif;
+			text-align: center;
+			}
+	
