@@ -53,14 +53,14 @@
 /* Create two equal columns that sits next to each other */
 .column {
 align-items:center;
-  padding: 0px 4px;
+  padding: 4px 4px;
   flex-wrap:wrap;
   justify-content: space-between;
 }
 
 .column img {
-  margin-top: 8px;
-  margin-right: 8px;
+  margin-top: 2px;
+  margin-right: 2px;
   margin-left:8px;
   vertical-align: middle;
   max-height: 100%;
@@ -98,3 +98,6 @@ h2 {text-align:center;
 		background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #6fe7bf);
 		margin:20px 20px;
 			}
+
+
+
