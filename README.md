@@ -1,6 +1,5 @@
 # WEBSITE - THE PEACEFUL PLACE
 This is an Online Library Assistant for a private library based in Midrand, South Africa.
-file:///C:/Users/kelly/Desktop/GirlCode/MyWebsite/index.html
 
 ## Built With
 
