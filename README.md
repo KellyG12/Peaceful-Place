@@ -5,6 +5,7 @@ This is an Online Library Assistant for a private library based in Midrand, Sout
 
 * Visual Studio Code
 * HTML
+* CSS
 * JavaScript
 
 ## Tested With
